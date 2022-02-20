@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheFeud", "TheFeud\TheFeud.csproj", "{55FA729D-3C0B-4BEB-BC01-868FDA629B85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeulingTraditions", "DeulingTraditions\DeulingTraditions.csproj", "{B0CFE7FE-C23C-4D29-A9E7-DFCAC8664FFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{55FA729D-3C0B-4BEB-BC01-868FDA629B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55FA729D-3C0B-4BEB-BC01-868FDA629B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55FA729D-3C0B-4BEB-BC01-868FDA629B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0CFE7FE-C23C-4D29-A9E7-DFCAC8664FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CFE7FE-C23C-4D29-A9E7-DFCAC8664FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CFE7FE-C23C-4D29-A9E7-DFCAC8664FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CFE7FE-C23C-4D29-A9E7-DFCAC8664FFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
