@@ -54,3 +54,9 @@ class Sieve
 //That approach is much messier though and can potentially lead to complicated inheritance hierarchies and managing multiple different types
 //This approach using delegates is much simpler to implement because we can easily change its behavior with a new instance and different delegate
 //rather than creating a whole new type just to change one behavior
+
+//WHOOPS, i was already using lambdas for the ctors so The Lamda Sieve challenge was already completed
+//Answer to challenge questions: the code is shorter and easier to write, for those that don't already understand the syntax for a lambda it is harder to read
+//I already knew about lambdas when completing this challenge previously and somehow didn't notice that they weren't yet brought up in the delegates chapter
+//so i ended up using them to make the code short. this was technically against my personal challenge of not using anything the book hasn't introduced yet,
+//but they are just so easy/intuitive to use for things like this that it slipped my mind completely
