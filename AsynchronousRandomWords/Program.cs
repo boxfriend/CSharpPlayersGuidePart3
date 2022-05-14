@@ -20,7 +20,7 @@ async Task TimeRecreation(string input)
     stopwatch.Start();
     var attempts = await RandomlyRecreateAsync(input!);
     stopwatch.Stop();
-    Console.WriteLine($"It took {attempts} in {stopwatch.Elapsed} to generate {input}");
+    Console.WriteLine($"It took {attempts} attempts in {stopwatch.Elapsed} to generate {input}");
 }
 
 async Task<int> RandomlyRecreateAsync(string word)
