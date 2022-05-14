@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniterOfAdds", "UniterOfAdd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheRobotFactory", "TheRobotFactory\TheRobotFactory.csproj", "{FABB4DC3-3B8F-4A35-BD06-EF648EFB6EF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColoredConsole.Challenge", "ColoredConsole.Challenge\ColoredConsole.Challenge.csproj", "{107BF636-4701-4F1A-ADEA-6A002AE71069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColoredConsole.Library", "ColoredConsole.Library\ColoredConsole.Library.csproj", "{5945FB6C-0284-4B15-84F8-B617E7EE26B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{FABB4DC3-3B8F-4A35-BD06-EF648EFB6EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FABB4DC3-3B8F-4A35-BD06-EF648EFB6EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FABB4DC3-3B8F-4A35-BD06-EF648EFB6EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107BF636-4701-4F1A-ADEA-6A002AE71069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107BF636-4701-4F1A-ADEA-6A002AE71069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107BF636-4701-4F1A-ADEA-6A002AE71069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107BF636-4701-4F1A-ADEA-6A002AE71069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5945FB6C-0284-4B15-84F8-B617E7EE26B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5945FB6C-0284-4B15-84F8-B617E7EE26B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5945FB6C-0284-4B15-84F8-B617E7EE26B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5945FB6C-0284-4B15-84F8-B617E7EE26B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
