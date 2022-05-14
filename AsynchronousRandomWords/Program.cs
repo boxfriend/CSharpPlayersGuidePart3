@@ -6,19 +6,26 @@ while (true)
     var input = "";
     do
     {
-        Console.Write("Please enter a valid word: ");
+        Console.WriteLine("Please enter a valid word: ");
         input = Console.ReadLine();
     } while (!IsValidInput(input!));
 
-    var stopwatch = new Stopwatch();
-    Console.WriteLine("Calculating attempts to recreate the word using a random number generator. . .");
-    var attempts = await RandomlyRecreateAsync(input!);
-    Console.WriteLine($"It took {attempts} in {stopwatch.Elapsed}");
+    Task.Run(() => TimeRecreation(input));
 }
 
-Task<int> RandomlyRecreateAsync(string word)
+async Task TimeRecreation(string input)
 {
-    return Task.Run(() => RandomlyRecreate(word));
+    var stopwatch = new Stopwatch();
+    Console.WriteLine($"Calculating attempts to recreate \"{input}\" using a random number generator. . .");
+    stopwatch.Start();
+    var attempts = await RandomlyRecreateAsync(input!);
+    stopwatch.Stop();
+    Console.WriteLine($"It took {attempts} in {stopwatch.Elapsed} to generate {input}");
+}
+
+async Task<int> RandomlyRecreateAsync(string word)
+{
+    return await Task.Run(() => RandomlyRecreate(word));
 }
 
 int RandomlyRecreate(string word)
