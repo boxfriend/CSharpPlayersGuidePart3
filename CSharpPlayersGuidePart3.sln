@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheThreeLenses", "TheThreeL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheRepeatingStream", "TheRepeatingStream\TheRepeatingStream.csproj", "{0A695661-49EB-46DB-92CF-03D7418422DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousRandomWords", "AsynchronousRandomWords\AsynchronousRandomWords.csproj", "{957BFF04-FA3B-47C1-AA4C-7143ACDA7610}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{0A695661-49EB-46DB-92CF-03D7418422DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A695661-49EB-46DB-92CF-03D7418422DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A695661-49EB-46DB-92CF-03D7418422DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957BFF04-FA3B-47C1-AA4C-7143ACDA7610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957BFF04-FA3B-47C1-AA4C-7143ACDA7610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957BFF04-FA3B-47C1-AA4C-7143ACDA7610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957BFF04-FA3B-47C1-AA4C-7143ACDA7610}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
