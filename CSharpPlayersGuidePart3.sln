@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColoredConsole.Challenge", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColoredConsole.Library", "ColoredConsole.Library\ColoredConsole.Library.csproj", "{5945FB6C-0284-4B15-84F8-B617E7EE26B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGreatHumanizer", "TheGreatHumanizer\TheGreatHumanizer.csproj", "{FDFA7067-270D-4574-AF80-DB4C1ECE6E85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{5945FB6C-0284-4B15-84F8-B617E7EE26B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5945FB6C-0284-4B15-84F8-B617E7EE26B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5945FB6C-0284-4B15-84F8-B617E7EE26B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFA7067-270D-4574-AF80-DB4C1ECE6E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFA7067-270D-4574-AF80-DB4C1ECE6E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFA7067-270D-4574-AF80-DB4C1ECE6E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFA7067-270D-4574-AF80-DB4C1ECE6E85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
