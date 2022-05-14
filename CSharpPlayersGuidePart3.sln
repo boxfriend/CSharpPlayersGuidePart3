@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheRepeatingStream", "TheRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousRandomWords", "AsynchronousRandomWords\AsynchronousRandomWords.csproj", "{957BFF04-FA3B-47C1-AA4C-7143ACDA7610}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniterOfAdds", "UniterOfAdds\UniterOfAdds.csproj", "{BAD83398-36E1-4BA8-8BBC-B1F42DA74AB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheRobotFactory", "TheRobotFactory\TheRobotFactory.csproj", "{FABB4DC3-3B8F-4A35-BD06-EF648EFB6EF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{957BFF04-FA3B-47C1-AA4C-7143ACDA7610}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{957BFF04-FA3B-47C1-AA4C-7143ACDA7610}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{957BFF04-FA3B-47C1-AA4C-7143ACDA7610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD83398-36E1-4BA8-8BBC-B1F42DA74AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD83398-36E1-4BA8-8BBC-B1F42DA74AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD83398-36E1-4BA8-8BBC-B1F42DA74AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD83398-36E1-4BA8-8BBC-B1F42DA74AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FABB4DC3-3B8F-4A35-BD06-EF648EFB6EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABB4DC3-3B8F-4A35-BD06-EF648EFB6EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABB4DC3-3B8F-4A35-BD06-EF648EFB6EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABB4DC3-3B8F-4A35-BD06-EF648EFB6EF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
